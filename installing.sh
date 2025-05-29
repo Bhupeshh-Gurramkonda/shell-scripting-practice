@@ -13,10 +13,10 @@ fi
 
 
 packageinstalling(){
-    dnf install $2 -y
+    dnf install $1 -y
     if [ $? -eq 0 ]
     then
-        echo " the package $2 has been installed successfully."
+        echo " the package $1 has been installed successfully."
     else
         echo " the package installation has been failed. Please check the package name once."
         exit 1
