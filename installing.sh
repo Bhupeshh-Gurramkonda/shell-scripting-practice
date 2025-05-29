@@ -14,7 +14,7 @@ fi
 
 packageinstalling(){
     dnf install $2
-    if[ $? -eq 0]
+    if[ $? -eq 0 ]
     then
         echo " the package $2 has been installed successfully."
     else
@@ -23,7 +23,7 @@ packageinstalling(){
 }
 
 packagevalidate(){
-    if [ $? -eq 0]
+    if [ $? -eq 0 ]
     then
         echo "package $2 is already installed."
         exit 1
