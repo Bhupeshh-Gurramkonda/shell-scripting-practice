@@ -20,6 +20,7 @@ packageinstalling(){
     else
         echo " the package installation has been failed. Please check the package name once."
         exit 1
+    fi
 }
 
 packagevalidate(){
