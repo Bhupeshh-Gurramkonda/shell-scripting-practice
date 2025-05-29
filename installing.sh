@@ -14,7 +14,7 @@ fi
 
 packageinstalling(){
     dnf install $2
-    if[ $? -eq 0 ]
+    if [ $? -eq 0 ]
     then
         echo " the package $2 has been installed successfully."
     else
