@@ -13,7 +13,7 @@ fi
 
 
 packageinstalling(){
-    dnf install $2
+    dnf install $2 -y
     if [ $? -eq 0 ]
     then
         echo " the package $2 has been installed successfully."
