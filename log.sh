@@ -24,7 +24,7 @@ fi
 
 
 packageinstalling(){
-    dnf install $1 -y
+    dnf install $1 -y >> $Logfile
     if [ $? -eq 0 ]
     then
         echo -e "$G the package $1 has been installed successfully $W." >> $Logfile
