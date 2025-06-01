@@ -3,10 +3,10 @@
 #checking the user is having the superuser permission or not.
 userid=$(id -u)
 
-R= "\e[31m"
-G= "\e[32m"
-Y= "\e[33m"
-W= "\e[0m"
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
+W="\e[0m"
 
 if [ $userid -eq 0 ]
 then
