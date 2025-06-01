@@ -2,7 +2,7 @@
 
 #checking the user is having the superuser permission or not.
 userid=$(id -u)
-mkdir -p /var/log/shell-script_log
+sudo mkdir -p /var/log/shell-script_log
 
 R="\e[31m" #red colour
 G="\e[32m" #Green colour
