@@ -47,8 +47,8 @@ packagevalidate(){
     fi
 }
 
-dnf list installed ${package[0]}
-packagevalidate $? ${package[0]}
+dnf list installed $packages[0]
+packagevalidate $? $packages[0]
 
-dnf list installed ${package[1]}
-packagevalidate $? ${package[1]}
+dnf list installed $packages[1]
+packagevalidate $? $packages[1]
